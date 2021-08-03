@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <meta charset="utf-8" />
+    <script src="https://cdn.plot.ly/plotly-2.2.0.min.js"></script>
+    <script type="text/javascript" src="new 2.js"></script>
+    <link href="process .css" rel="stylesheet" type="text/css">
+
+
+    <title> ProcessMinded programmeren</title>
+</head>
+
+<body>
+    <a href="Core.html"><img src="logo.png" width="450" height="128" /></a>
+    <h1> Interactive example with GUI</h1>
+
+    <div>
+
+        In this example the user can control the interval of "x" through tow boxes <br />
+        The first box is the first value of the interval (x_1,x_2) while the second box represents the max value.<br />
+        The program will then compute and plot two functions <br />
+
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div id="container">
+        <form action="" id="form" onsubmit="sConsole(event)">
+
+            <input type="number" name="data" id="data">
+            <input type="number" name="data_1" id="data_1">
+            <button id="button_1" type="submit">Submit</button>
+
+        </form>
+
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div id="lin" style="width:600px; height:250px;"></div>
+    <br />
+    <br />
+    <div id="qua" style="width:600px; height:250px;"></div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"
+        integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/"
+        crossorigin="anonymous"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="//cdn.rawgit.com/rainabba/jquery-table2excel/1.1.0/dist/jquery.table2excel.min.js">
+    </script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="Table_script.js" defer></script>
+    <link href="process .css" rel="stylesheet" type="text/css">
+
+
+
+
+    <title> ProcessMinded programmeren</title>
+
+</head>
+
+<body id='body'>
+    <a href="Core.html"><img src="logo.png" width="450" height="128" /></a>
+
+    <h1> Table example with controls and organazational charts with links</h1>
+
+
+    
+    <button id="b_1" class="b1">Add Row</button>
+    <button id="b_2" class="b2">Export PDF</button>
+    <button id="b_3" class="b3">Export Excel File</button>
+
+    <div id="d" class="first">
+
+        <br>
+        <br>
+
+        <table id="t" class="table1" >
+
+            <tr>
+                <th>Eis ID</th>
+                <th>Eis Titel</th>
+                <th>Eis Tekst </th>
+                <th>Geldig tot</th>
+                <th>Datum</th>
+                <th>Organisatie</th>
+            </tr>
+        </table>
+        <br>
+        <br>
+
+    </div>
+    <br>
+    <br>
+
+    <div id="chart_div" class="nodeClass"></div>
+
+
+</body>
+
+</html>
