@@ -2,8 +2,8 @@
 function berek(){
 var x = [];
         console.log(x);
-        x_1 = prompt("will this change in the website too?");
-        x_2 = prompt("Why wont it change");
+        x_1 = prompt("x_1");
+        x_2 = prompt("x_2");
 
         for (let j = x_1; j <= x_2; j++) {
 
