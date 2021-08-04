@@ -3,7 +3,7 @@ function berek(){
 var x = [];
         console.log(x);
         x_1 = prompt("will this change in the website too?");
-        x_2 = prompt("enter x_2");
+        x_2 = prompt("Why wont it change");
 
         for (let j = x_1; j <= x_2; j++) {
 
