@@ -2,7 +2,7 @@
 function berek(){
 var x = [];
         console.log(x);
-        x_1 = prompt("x_1");
+        x_1 = prompt("this is a change. it should be visible when i save this file");
         x_2 = prompt("x_2");
 
         for (let j = x_1; j <= x_2; j++) {
