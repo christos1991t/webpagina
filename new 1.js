@@ -2,7 +2,7 @@
 function berek(){
 var x = [];
         console.log(x);
-        x_1 = prompt("enter x_1");
+        x_1 = prompt("will this change in the website too?");
         x_2 = prompt("enter x_2");
 
         for (let j = x_1; j <= x_2; j++) {
