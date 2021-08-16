@@ -53,6 +53,7 @@ document.getElementById("d1").innerHTML= `
 <br>
 
 <div > 
+Select Verificator
 <select> 
 <option> ${v1.name}</option>
 <option> ${v2.name}</option>
