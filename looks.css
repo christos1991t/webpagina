@@ -18,6 +18,7 @@ div {
   font-family: Tahoma;
   font-size: 20px;
   color: rgba(255, 0, 234, 0.671);
+  width: 100px;
 }
 
 ol {
